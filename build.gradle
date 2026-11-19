@@ -1,0 +1,4 @@
+allprojects {
+    group = 'net.vanguard'
+    version = "${mod_version}+${minecraft_version}"
+}

@@ -1,0 +1,17 @@
+.gradle/
+build/
+*/build/
+run/
+*/run/
+
+.idea/
+*.iml
+.vscode/
+.fleet/
+out/
+bin/
+
+*.log
+logs/
+crash-reports/
+.DS_Store

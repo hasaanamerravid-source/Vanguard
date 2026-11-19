@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "vanguard",
+  "version": "${version}",
+  "name": "Vanguard",
+  "description": "Client-side predictive entity culling, occlusion culling, and foveated level-of-detail for Minecraft 26.3.",
+  "authors": [
+    "Hasaan Amer"
+  ],
+  "license": "MIT",
+  "icon": "assets/vanguard/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.vanguard.fabric.VanguardFabric"
+    ]
+  },
+  "mixins": [
+    "vanguard.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3"
+  }
+}

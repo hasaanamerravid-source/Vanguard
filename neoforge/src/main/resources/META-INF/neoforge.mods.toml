@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "vanguard"
+version = "${version}"
+displayName = "Vanguard"
+iconFile = "assets/vanguard/icon.png"
+authors = "Hasaan Amer"
+description = '''
+Client-side predictive entity culling, occlusion culling, and foveated level-of-detail for Minecraft 26.3.
+'''
+
+[[mixins]]
+config = "vanguard.neoforge.mixins.json"
+
+[[dependencies.vanguard]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.3.0.103,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.vanguard]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.3, 26.4)"
+ordering = "NONE"
+side = "CLIENT"

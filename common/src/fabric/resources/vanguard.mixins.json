@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.vanguard.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "BlockEntityRenderDispatcherMixin",
+    "ClientLevelMixin",
+    "DebugScreenEntriesMixin",
+    "EntityRendererMixin",
+    "LevelExtractorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

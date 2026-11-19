@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "vanguard",
+  "version": "${version}",
+  "name": "Vanguard (Quilt)",
+  "description": "Quilt build of Vanguard: predictive entity culling, occlusion culling, and foveated level-of-detail for Minecraft 26.3.",
+  "authors": [
+    "Hasaan Amer"
+  ],
+  "license": "MIT",
+  "icon": "assets/vanguard/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.vanguard.quilt.VanguardQuilt"
+    ]
+  },
+  "mixins": [
+    "vanguard.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~26.3"
+  }
+}
