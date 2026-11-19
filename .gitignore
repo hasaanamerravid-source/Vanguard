@@ -14,4 +14,6 @@ bin/
 *.log
 logs/
 crash-reports/
+.modrinth-token
+.env
 .DS_Store
